@@ -1,0 +1,148 @@
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 1140px !important;
+  }
+
+  .head-part .head-sect {
+    width: 100%;
+  }
+  .head-part .d-flex {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .nav-img {
+    width: 30%;
+  }
+  #sign-up {
+    margin-right: 10px;
+  }
+  .pink-img {
+    display: none;
+  }
+  .square-img {
+    display: none;
+  }
+  #top-mar {
+    flex-direction: column-reverse !important;
+  }
+  .pink-img-right {
+    display: none;
+  }
+  .traingle-img-right {
+    display: none;
+  }
+  .images-ball-second {
+    display: none;
+  }
+  .first-card .images-ball {
+    display: none;
+  }
+  .cards-up {
+    flex-wrap: wrap;
+  }
+  .first-card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .first-card .image img {
+    width: 100%;
+  }
+  .resume {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .resume .all-cards .first-card .text .text-2 p {
+    width: 100%;
+  }
+  .snap-left .image img {
+    width: 80%;
+    justify-content: center;
+  }
+  #diff {
+    gap: 50px;
+  }
+  .snap-right .text ul {
+    margin-bottom: 30px;
+  }
+  .pick-sect {
+    margin-top: 50px !important;
+}
+.benfits {
+  margin-top: 50px;
+}
+.head-part{
+  margin-top: 50px;
+}
+.resume-right a{
+  margin-top: 5px!important;
+}
+.future-resume {
+  margin-top: 50px;
+}
+  .snap-right .text a {
+    color: white;
+    background-color: #0e4da3;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 90px;
+    font-size: 12px;
+  }
+  .changed .head-sect {
+    width: 100%;
+  }
+  .changed {
+    flex-direction: column-reverse;
+  }
+  .pick-left .text p:nth-child(3) {
+    width: 100%;
+  }
+  .pick-left .text h3 br {
+    display: none;
+  }
+  .pick-right .image img {
+    margin-bottom: 60px;
+  }
+  .cards-up .cards {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .cards-up .cards .image {
+    margin-top: 10px;
+}
+footer .container{
+  margin-top: 50px;
+}
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .div-2{
+    width: 100%;
+  }
+  .div-first{
+    width: 100%;
+  }
+  footer .container .d-flex{
+    flex-wrap: wrap;
+gap: 20px;
+  }
+  #sign-up {
+    color: #000000;
+    border-radius: 50px;
+    border: 1px solid #273877;
+    padding: 7px 21px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#sign-in {
+  color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid #273877;
+  padding: 7px 21px;
+  font-size: 16px;
+  background-color: #273877;
+}
+}

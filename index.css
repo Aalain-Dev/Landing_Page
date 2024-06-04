@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+  padding: 0 10px;
+}
+.nav-img {
+  width: 15%;
+}
+:root{
+--var-color:#0E4DA3
+}
+a {
+  text-decoration: none !important;
+}
+.primary-btn{
+  padding: 10px 30px;
+  background-color: var(--var-color);
+  color: #fff;
+  border-radius: 100px;
+}
+#sign-up {
+  color: #000000;
+  border-radius: 50px;
+  border: 1px solid #273877;
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-right: 70px;
+}
+
+#sign-in {
+  color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid #273877;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #273877;
+}
+/* Hero Section starts here */
+.top p:first-child {
+  font-size: 35px;
+}
+.top p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 300 !important;
+}
+.resume-score {
+  background-color: #0e4da3;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.head-part {
+  position: relative;
+  margin-top: 90px;
+}
+.pink-img img {
+  position: absolute;
+  width: 30px;
+  top: 25px;
+  left: 66px;
+}
+.square-img img {
+  position: absolute;
+  width: 60px;
+  /* top: -32px; */
+  left: 444px;
+  bottom: 49px;
+}
+.right {
+  position: relative;
+}
+.right .image img {
+  width: 80%;
+  z-index: 10;
+}
+.pink-img-right img {
+  position: absolute;
+  right: 45px;
+  bottom: -8px;
+  z-index: -1;
+}
+.traingle-img-right {
+  position: absolute;
+  top: -53px;
+  right: 36px;
+  height: 10px;
+}
+.changed{
+  display: flex;
+}
+.changed .head-sect{
+  width: 50%;
+}
+.d-flexs{
+  display: flex;
+}
+.head-part .head-sect {
+  width: 50%;
+}
+/* Hero Section Ends here */
+/* Build your resume in 3 steps starst here */
+
+.resume {
+  margin-top: 100px;
+}
+
+.resume .text {
+  color: #0e4da3;
+}
+
+.resume .all-cards {
+  margin-top: 50px;
+}
+.resume .all-cards .first-card .text .text1 p {
+  font-size: 50px;
+  color: #fa284d;
+  font-weight: 600;
+}
+.resume .all-cards .first-card .text .text-2 p:first-child {
+  color: #fa284d;
+  font-size: 25px;
+  margin-bottom: 0 !important;
+  font-weight: 600;
+}
+.resume .all-cards .first-card .text .text-2 p {
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 0 !important;
+  font-weight: 300;
+  width: 400px;
+}
+.first-card .images-ball {
+  margin-left: 150px;
+}
+.images-ball-second {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+/* Build your resume in 3 steps ends here */
+/* Snapshot of our simple-to-use editor starts here */
+
+.bg-pink {
+  background: url("./images/pink\ bg.png");
+  /* height: 500px; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.bg-pink .row .text h2 {
+  font-size: 25px;
+  color: #0e4da3;
+}
+.snap-left .image {
+  width: 90%;
+}
+.snap-left .image img {
+  width: 100%;
+}
+.snap-right .text ul {
+  margin-bottom: 70px;
+}
+.snap-right .text ul li {
+  margin-top: 20px;
+  font-size: 18px;
+  position: relative;
+}
+.snap-right .text ul {
+  list-style: none;
+}
+.snap-right .text ul li::before {
+  content: "•";
+  color: red;
+  font-size: 38px;
+  position: absolute;
+  left: -23px;
+  top: -17px;
+}
+
+.snap-right .text ul li span {
+  font-weight: 700;
+}
+.snap-right .text ul li::marker {
+  color: #fa284d;
+}
+.snap-right .text a {
+  color: white;
+  background-color: #0e4da3;
+  padding: 10px 40px;
+  border-radius: 50px;
+  margin-top: 90px;
+  font-size: 14px;
+}
+.on-b {
+  border-right: 1px solid rgb(0, 0, 0);
+}
+.stats .texts p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.stats .numbers p:first-child {
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0 !important;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+.only-left {
+  padding-left: 30px;
+}
+.stats .numbers p:nth-child(2) {
+  font-weight: 300;
+}
+/* .snap-right .stats p{
+  margin-top: 70px;
+  font-weight: 300;
+font-size: 20px;
+} */
+/* shot of our simple-to-use editor Ends here */
+*/
+/* You can always pick any template you like starts here */
+
+#top-mar {
+display: none;
+}
+.pick-sect{
+margin-top: 100px !important;
+
+}
+.pick-left .text h3 {
+  color: #0b59a1 !important  ;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 40px;
+}
+.pick-left .text p{
+color: #FA284D;
+}
+.pick-left .text p:nth-child(3){
+  color: #000;
+  width: 400px;
+  font-size: 16px;
+  font-weight: 300;
+  }
+.pick-right .image img {
+  width: 100%;
+}
+
+/* You can always pick any template you like ends here */
+/* About FutureResume starts here    */
+
+.future-resume{
+  margin-top: 100px;
+  color: var(--var-color);
+}
+
+.future-resume .resume-left .image{
+  width: 100%;
+}
+.future-resume .resume-left .image img{
+  width: 100%;
+}
+/* About FutureResume ends here */
+
+/* Benefits Of Using Our Product starts here */
+.benfits
+{
+  margin-top: 100px;
+}
+.benfits .text-up{
+  text-align: center;
+}
+.benfits .text-up h3 {
+  color: var(--var-color);
+  font-size: 40px;
+  font-weight: 500;
+}
+.benfits .text-up p{
+  font-size: 20px;
+  color: #FA284D;
+}
+.benefit-cards{
+  margin-top: 100px;
+}
+.cards-up .cards {
+  width: 350px;
+  text-align: center;
+}
+.cards-up .cards .text p:first-child {
+color: #000000;
+font-size: 25px;
+}
+.cards-up .cards .text p:nth-child(2) {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 200;
+  }
+.cards-up .cards  .image {
+  margin-top: 50px;
+}
+/* Benefits Of Using Our Product ends here */
+/* footer starts here */
+
+footer{
+  background-color: #f7f7f7;
+
+}
+
+footer .container{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.div-first{
+  width: 300px;
+  margin: 0 auto;
+
+}
+.div-first p:first-child{
+  color: #FA284D;
+  font-weight: 500;
+  font-size: 20px;
+}
+.div-first p{
+  color: var(--var-color);
+  font-size: 14px;
+}
+.div-2{
+  width: 300px;
+  margin: 0 auto;
+}
+.div-2 p {
+  color: var(--var-color);
+  font-size: 18px;
+}
+.div-2 .text a{
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.iamges a img {
+  width: 25px;
+  margin-right: 20px;
+}
+/* footer ends here */
